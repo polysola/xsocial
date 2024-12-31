@@ -61,8 +61,8 @@ const LeftSidebar = () => {
           </Link>
         )}
         {/* <WalletMultiButton className="btn btn-ghost mr-4" /> */}
-        <Button type="submit" className="shad-button_primary">
-        Buy Now
+        <Button className="shad-button_primary">
+          <a className="w-full" href="https://firstledger.net/token/rUZ1JUPGad31D4RYNB1JTWFZUpmtFq2Sme/5852505400000000000000000000000000000000" target="_blank" rel="noopener noreferrer">Buy Now</a>
             </Button>
         <ul className="flex flex-col gap-6">
           {sidebarLinks.map((link: INavLink) => {
