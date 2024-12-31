@@ -65,11 +65,10 @@ const SigninForm = () => {
           <img className="rounded-full" width={168} src="/assets/images/logo.png" alt="logo" />
 
           <h2 className="h3-bold md:h2-bold pt-5 sm:pt-12">
-            {/* Powering The Web3 Social Network */}The first social media
-            platform for Memes on Xrpl
+            {/* Powering The Web3 Social Network */}The first SocialFi on XRPL.
           </h2>
           <p className="text-light-3 small-medium md:base-regular mt-2 text-center">
-            {/* Launching the first-ever fully decentralized and Web 3.0-integrated social media network service built on the SOLANA Network. */}
+        
             Create an account and share joyful moments in life
           </p>
           <form
