@@ -37,6 +37,7 @@ const LeftSidebar = () => {
           <img
             src="/assets/images/logo.png"
             alt="logo"
+            className="rounded-full"
             width={50}
             height={36}
           />
@@ -60,7 +61,9 @@ const LeftSidebar = () => {
           </Link>
         )}
         {/* <WalletMultiButton className="btn btn-ghost mr-4" /> */}
-        {/* <ConnectButton /> */}
+        <Button type="submit" className="shad-button_primary">
+        Buy Now
+            </Button>
         <ul className="flex flex-col gap-6">
           {sidebarLinks.map((link: INavLink) => {
             const isActive = pathname === link.route;

@@ -62,11 +62,11 @@ const SigninForm = () => {
     <div>
       <Form {...form}>
         <div className="sm:w-420 flex-center flex-col">
-          <img width={168} src="/assets/images/logo.png" alt="logo" />
+          <img className="rounded-full" width={168} src="/assets/images/logo.png" alt="logo" />
 
           <h2 className="h3-bold md:h2-bold pt-5 sm:pt-12">
             {/* Powering The Web3 Social Network */}The first social media
-            platform for Memes on Sui
+            platform for Memes on Xrpl
           </h2>
           <p className="text-light-3 small-medium md:base-regular mt-2 text-center">
             {/* Launching the first-ever fully decentralized and Web 3.0-integrated social media network service built on the SOLANA Network. */}
@@ -123,7 +123,7 @@ const SigninForm = () => {
             </p>
 
             <div style={{ display: "flex", justifyContent: "center" }}>
-              <a href="https://x.com/SuiXSocial">
+              <a href="https://x.com/XRPTalk_real">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
@@ -141,7 +141,7 @@ const SigninForm = () => {
               </a>
               <div style={{ padding: "0 6px" }}></div>
               <a
-                href="https://t.me/SuiXSocial"
+                href="https://t.me/XRPTalk_Portal"
                 target="_blank"
                 rel="noopener noreferrer">
                 <svg

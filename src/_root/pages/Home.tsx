@@ -3,7 +3,7 @@ import { Models } from "appwrite";
 // import { useToast } from "@/components/ui/use-toast";
 import { Loader, PostCard, UserCard } from "@/components/shared";
 import { useGetRecentPosts, useGetUsers } from "@/lib/react-query/queries";
-import { ConnectButton } from "@suiet/wallet-kit";
+// import { ConnectButton } from "@suiet/wallet-kit";
 
 const Home = () => {
   // const { toast } = useToast();
@@ -36,7 +36,7 @@ const Home = () => {
     <div className="flex flex-1">
       <div className="home-container">
         <div className="home-posts">
-          <ConnectButton />
+          {/* <ConnectButton /> */}
           <h2 className="h3-bold md:h2-bold text-left w-full">Home Feed</h2>
 
           {isPostLoading && !posts ? (
