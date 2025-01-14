@@ -122,7 +122,7 @@ const SigninForm = () => {
             </p>
 
             <div style={{ display: "flex", justifyContent: "center" }}>
-              <a href="https://x.com/XRPTalk_real">
+              <a href="https://x.com/XRPTweet_Social">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   x="0px"
@@ -140,7 +140,7 @@ const SigninForm = () => {
               </a>
               <div style={{ padding: "0 6px" }}></div>
               <a
-                href="https://t.me/XRPTalk_Portal"
+                href="https://t.me/XRPTweet_Portal"
                 target="_blank"
                 rel="noopener noreferrer">
                 <svg
